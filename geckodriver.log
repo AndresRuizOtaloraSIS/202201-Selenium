@@ -1,0 +1,420 @@
+1641935835605	geckodriver	INFO	Listening on 127.0.0.1:3277
+1641935838643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3278" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileIxoQXa"
+1641935839772	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileIxoQXa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3278/devtools/browser/4a97c09d-1f55-4c1a-9fde-d7bfe17e4a66
+1641935842868	Marionette	INFO	Listening on port 3289
+1641935842978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641936111098	Marionette	INFO	Stopped listening on port 3289
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "3438" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilelXPioc"
+1641935900936	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilelXPioc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3438/devtools/browser/81ff76f6-be05-4def-a39e-3d1ae5dde8aa
+1641935903544	Marionette	INFO	Listening on port 3447
+1641935903691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641935915150	Marionette	INFO	Stopped listening on port 3447
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641936065583	geckodriver	INFO	Listening on 127.0.0.1:3803
+1641936068658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3804" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileZZSMXX"
+1641936069286	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileZZSMXX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3804/devtools/browser/2d13f8ae-05f1-4f6a-81de-623e13cf1a74
+1641936071848	Marionette	INFO	Listening on port 3815
+1641936072369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641936083915	Marionette	INFO	Stopped listening on port 3815
+1641936541829	geckodriver	INFO	Listening on 127.0.0.1:8541
+1641936544893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8542" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileWzN6ki"
+1641936545346	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileWzN6ki\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8542/devtools/browser/3e490a49-9857-474a-ae71-24e8216fc38c
+1641936548028	Marionette	INFO	Listening on port 8554
+1641936548082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641936575820	Marionette	INFO	Stopped listening on port 8554
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641936584454	geckodriver	INFO	Listening on 127.0.0.1:8733
+1641936587534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8734" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileYwdZzr"
+1641936587996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileYwdZzr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8734/devtools/browser/e93910b3-a0a4-4bb3-9b8a-081679bf9449
+1641936590515	Marionette	INFO	Listening on port 8746
+1641936590725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s.yimg.com/wm/mbr/3da98cc2f42fc7e10689dea36730358e36859ceb/bundle.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641936604935	Marionette	INFO	Stopped listening on port 8746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641936706861	geckodriver	INFO	Listening on 127.0.0.1:9039
+1641936709937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9040" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileUwbsPU"
+1641936710393	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileUwbsPU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9040/devtools/browser/525aa681-f634-4302-b309-1b3ee1ab95b0
+1641936713009	Marionette	INFO	Listening on port 9051
+1641936713148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641936731566	Marionette	INFO	Stopped listening on port 9051
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641936760488	geckodriver	INFO	Listening on 127.0.0.1:9187
+1641936763560	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9188" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileZgNc6P"
+1641936763980	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileZgNc6P\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9188/devtools/browser/243e9846-615f-4c47-8140-f0d72fca403f
+1641936766346	Marionette	INFO	Listening on port 9198
+1641936766763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641936786531	Marionette	INFO	Stopped listening on port 9198
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641936854370	geckodriver	INFO	Listening on 127.0.0.1:9447
+1641936857441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9448" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilegJ4JVL"
+1641936857922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilegJ4JVL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9448/devtools/browser/8fcb7f0c-75b9-43fa-a544-077d7de950e1
+1641936860660	Marionette	INFO	Listening on port 9458
+1641936861141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641936872717	Marionette	INFO	Stopped listening on port 9458
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1641937005700	geckodriver	INFO	Listening on 127.0.0.1:9805
+1641937008776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9806" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilewwPkSp"
+1641937009180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilewwPkSp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9806/devtools/browser/d14d0363-32c6-4cb5-99ff-9fa65066010a
+1641937011747	Marionette	INFO	Listening on port 9816
+1641937011965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937051104	Marionette	INFO	Stopped listening on port 9816
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 26396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641937178847	geckodriver	INFO	Listening on 127.0.0.1:10238
+1641937181910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10239" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileVhALxg"
+1641937182371	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileVhALxg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10239/devtools/browser/b9513b70-1f15-4c47-8806-474b523623ce
+1641937184810	Marionette	INFO	Listening on port 10249
+1641937185096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937196042	Marionette	INFO	Stopped listening on port 10249
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641937229402	geckodriver	INFO	Listening on 127.0.0.1:10400
+1641937232471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10401" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileQTEiPg"
+1641937232896	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileQTEiPg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10401/devtools/browser/5ebfd97e-f31a-418b-b293-ac21d1ffe806
+1641937235423	Marionette	INFO	Listening on port 10411
+1641937235663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937247857	Marionette	INFO	Stopped listening on port 10411
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641937259291	geckodriver	INFO	Listening on 127.0.0.1:10514
+1641937262363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10515" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileRYxysb"
+1641937262796	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileRYxysb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10515/devtools/browser/8bcf0be3-f6fc-416a-980d-80aae09f5eab
+1641937265276	Marionette	INFO	Listening on port 10525
+1641937265560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937283171	Marionette	INFO	Stopped listening on port 10525
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641937297309	geckodriver	INFO	Listening on 127.0.0.1:10643
+1641937300387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10644" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileIDBc8C"
+1641937300856	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileIDBc8C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10644/devtools/browser/fe187a3b-4ef3-404c-8206-ef0243b092a2
+1641937303394	Marionette	INFO	Listening on port 10655
+1641937303585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937631097	Marionette	INFO	Stopped listening on port 10655
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ozprofileDujgqy"
+1641937426462	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileDujgqy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10982/devtools/browser/85ceb8c8-2e86-407d-8c27-94e4ba98a601
+1641937429079	Marionette	INFO	Listening on port 10995
+1641937429235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641937430170	Marionette	INFO	Stopped listening on port 10995
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1641937443250	geckodriver	INFO	Listening on 127.0.0.1:11073
+1641937446316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11074" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilefd6ocC"
+1641937446730	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilefd6ocC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11074/devtools/browser/ffff5f0e-6528-455c-83d5-221d705808be
+1641937449145	Marionette	INFO	Listening on port 11085
+1641937449522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937485335	Marionette	INFO	Stopped listening on port 11085
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1641937532802	geckodriver	INFO	Listening on 127.0.0.1:11332
+1641937535871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11333" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilevdTxqV"
+1641937536290	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilevdTxqV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11333/devtools/browser/6212d1fe-cb8f-431d-9ac7-38b346825e0d
+1641937538629	Marionette	INFO	Listening on port 11342
+1641937539054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641937559766	Marionette	INFO	Stopped listening on port 11342
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641937578039	geckodriver	INFO	Listening on 127.0.0.1:11478
+1641937581132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11479" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilexa9Vpg"
+1641937581549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilexa9Vpg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11479/devtools/browser/83ce591c-fbbf-4cf4-8565-541c3b4fd1dd
+1641937583811	Marionette	INFO	Listening on port 11491
+1641937584302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939272042	Marionette	INFO	Stopped listening on port 11491
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 29380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+937856651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilev2C511\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:12143/devtools/browser/a78477f6-d8cc-4d8e-9a81-935e3b251ae6
+1641937859170	Marionette	INFO	Listening on port 12155
+1641937859427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641938492377	Marionette	INFO	Stopped listening on port 12155
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "12397" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilebU6Xvh"
+1641937946884	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilebU6Xvh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:12397/devtools/browser/0b15cc82-e941-412d-bd72-b473b4e96216
+1641937949637	Marionette	INFO	Listening on port 12407
+1641937949690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641937959088	Marionette	INFO	Stopped listening on port 12407
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641938015998	geckodriver	INFO	Listening on 127.0.0.1:12614
+1641938019065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12615" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileoW2pmT"
+1641938019451	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileoW2pmT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:12615/devtools/browser/047a99b4-1a0b-49f3-9633-02d712d92ec0
+1641938022139	Marionette	INFO	Listening on port 12626
+1641938022251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641938053603	Marionette	INFO	Stopped listening on port 12626
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 23072, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641938531151	geckodriver	INFO	Listening on 127.0.0.1:13813
+1641938534230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13814" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileV4xk0s"
+1641938534654	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileV4xk0s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13814/devtools/browser/b044f24e-e09d-473a-aee4-3bdca7f93bef
+1641938537227	Marionette	INFO	Listening on port 13823
+1641938537415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939047076	Marionette	INFO	Stopped listening on port 13823
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 25696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+938617363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileHEm947\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:14077/devtools/browser/73925c34-339e-4212-8483-a85e52f28d73
+1641938620236	Marionette	INFO	Listening on port 14091
+1641938620610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641938649147	Marionette	INFO	Stopped listening on port 14091
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641938991602	geckodriver	INFO	Listening on 127.0.0.1:15044
+1641938994685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15045" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileBp6lxX"
+1641938995090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileBp6lxX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:15045/devtools/browser/10ae10f7-1a47-4385-ada6-a35df23f3342
+1641938997644	Marionette	INFO	Listening on port 15058
+1641938997860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939045136	Marionette	INFO	Stopped listening on port 15058
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641939311309	geckodriver	INFO	Listening on 127.0.0.1:32382
+1641939314385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32383" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehAifUW"
+1641939314814	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehAifUW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32383/devtools/browser/4963fd02-6d9f-4e44-af0b-cdab1330579f
+1641939317522	Marionette	INFO	Listening on port 32395
+1641939317561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939326134	Marionette	INFO	Stopped listening on port 32395
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641939339267	geckodriver	INFO	Listening on 127.0.0.1:32483
+1641939342349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32484" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofile6oMiyX"
+1641939342796	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofile6oMiyX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32484/devtools/browser/5e851f2a-8b32-486d-b820-8d420bccc700
+1641939345414	Marionette	INFO	Listening on port 32494
+1641939345537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939354190	Marionette	INFO	Stopped listening on port 32494
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641939377147	geckodriver	INFO	Listening on 127.0.0.1:32599
+1641939380229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32600" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileepstIw"
+1641939380632	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileepstIw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32600/devtools/browser/001a308c-e16d-4556-8bfe-3e23366a916c
+1641939383190	Marionette	INFO	Listening on port 32611
+1641939383412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939412204	Marionette	INFO	Stopped listening on port 32611
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641939465102	geckodriver	INFO	Listening on 127.0.0.1:32804
+1641939468182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32805" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileS6mgjK"
+1641939468639	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileS6mgjK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32805/devtools/browser/1d174168-392a-4e27-996f-9662c3c5cf54
+1641939471159	Marionette	INFO	Listening on port 32813
+1641939471347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939493503	Marionette	INFO	Stopped listening on port 32813
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641939521999	geckodriver	INFO	Listening on 127.0.0.1:32954
+1641939525084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32955" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileGgR6sq"
+1641939525522	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileGgR6sq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32955/devtools/browser/096649e3-1e22-4b39-bbfa-e223a5b79dc1
+1641939528010	Marionette	INFO	Listening on port 32969
+1641939528271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641939582221	Marionette	INFO	Stopped listening on port 32969
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641940442094	geckodriver	INFO	Listening on 127.0.0.1:34639
+1641940445160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34640" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilepoJvr9"
+1641940445607	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilepoJvr9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34640/devtools/browser/f7352243-990a-481f-9648-17734dd4671f
+1641940448259	Marionette	INFO	Listening on port 34652
+1641940448325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641940484021	Marionette	INFO	Stopped listening on port 34652
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641940491294	geckodriver	INFO	Listening on 127.0.0.1:34787
+1641940494352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34788" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehcOcNh"
+1641940494735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehcOcNh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34788/devtools/browser/0ce3248c-1d91-4dda-9150-45e53b74e5e0
+1641940497283	Marionette	INFO	Listening on port 34797
+1641940497545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641940962084	geckodriver	INFO	Listening on 127.0.0.1:35656
+1641940965158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "35657" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofile5xy6ZV"
+1641940965591	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofile5xy6ZV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35657/devtools/browser/74eb0034-a895-4a29-994e-1a5c07554ea6
+1641940968131	Marionette	INFO	Listening on port 35667
+1641940968327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641941161705	geckodriver	INFO	Listening on 127.0.0.1:36080
+1641941164766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36081" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilem0b5Qt"
+1641941165173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilem0b5Qt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36081/devtools/browser/f1900394-cf41-45b6-aecc-a1e96074267d
+1641941167691	Marionette	INFO	Listening on port 36091
+1641941167957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641942047420	geckodriver	INFO	Listening on 127.0.0.1:38072
+1641942050501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38073" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehyFcM2"
+1641942050909	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilehyFcM2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38073/devtools/browser/0385798a-59ae-413d-8ffe-57d249291e57
+1641942053648	Marionette	INFO	Listening on port 38084
+1641942053682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641942071238	Marionette	INFO	Stopped listening on port 38084
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1641942095307	geckodriver	INFO	Listening on 127.0.0.1:38203
+1641942098376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38204" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileq2RZNa"
+1641942098804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileq2RZNa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38204/devtools/browser/d9e8a9e9-bdd3-46b2-9166-f3b2e2a48b74
+1641942101333	Marionette	INFO	Listening on port 38212
+1641942101561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+JavaScript error: https://prestadores.minsalud.gov.co/habilitacion/work.aspx, line 15: ReferenceError: $ is not defined
+1641942156471	Marionette	INFO	Stopped listening on port 38212
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 1804, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
