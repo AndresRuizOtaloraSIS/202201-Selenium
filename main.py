@@ -1,25 +1,35 @@
-# This is a sample Python script.
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import time
+from typing import List
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
 
 from selenium import webdriver
 import selenium.webdriver.support.ui as ui
 
 driver = webdriver.Chrome()
 
+target_url: list[str] = ['https://prestadores.minsalud.gov.co/habilitacion/consultas/habilitados_reps.aspx',
+                  'https://prestadores.minsalud.gov.co/habilitacion/consultas/sedes_reps.aspx',
+                  'https://prestadores.minsalud.gov.co/habilitacion/consultas/serviciossedes_reps.aspx',
+                  'https://prestadores.minsalud.gov.co/habilitacion/consultas/capacidadesinstaladas_reps.aspx',
+                  'https://prestadores.minsalud.gov.co/habilitacion/consultas/medidasseguridad_reps.aspx',
+                  'https://prestadores.minsalud.gov.co/habilitacion/consultas/sanciones_reps.aspx']
 
 def aviso():
     time.sleep(10)
-    driver.find_element(By.XPATH, '//*[@id ="exampleModal"]').click()
+    driver.find_element(By.XPATH, '//*[@id ="exampleModal"]').send_keys(Keys.ESCAPE)
 
 
 def loginpage():
     ui.WebDriverWait(driver, 10)
-    driver.get('https://prestadores.minsalud.gov.co/habilitacion/work.aspx')
+    driver.get("https://prestadores.minsalud.gov.co/habilitacion/work.aspx")
     aviso()
     login = driver.find_element(By.XPATH, '//*[@id="tbid_usuario"]')
     login.clear()
@@ -31,7 +41,8 @@ def loginpage():
     driver.find_element(By.ID, "Button1").click()
 
 
-def descargar():
+def descargar(url):
+    driver.get(url)
     driver.find_element(By.ID, "_ctl0_ibBuscarFtr").click()
     try:
         WebDriverWait(driver, 240).until(
@@ -48,48 +59,8 @@ def descargar():
         time.sleep(10)
 
 
-def prestadorespage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/habilitados_reps.aspx')
-    descargar()
-
-
-def sedespage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/sedes_reps.aspx')
-    descargar()
-
-
-def serviciospage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/serviciossedes_reps.aspx')
-    descargar()
-
-
-def capacidadpage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/capacidadesinstaladas_reps.aspx')
-    descargar()
-
-
-def medidasseguridadpage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/medidasseguridad_reps.aspx')
-    descargar()
-
-
-def sancionespage():
-    driver.get(
-        'https://prestadores.minsalud.gov.co/habilitacion/consultas/sanciones_reps.aspx')
-    descargar()
-
-
 loginpage()
-prestadorespage()
-sedespage()
-serviciospage()
-capacidadpage()
-medidasseguridadpage()
-sancionespage()
+for n in range(len(target_url)):
+    descargar(target_url[n])
 time.sleep(50)
 driver.quit()
