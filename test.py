@@ -17,11 +17,6 @@ driver = webdriver.Chrome()
 
 target_url: list[str] = ['http://sis-db-04/SOATReportConsole/InformesHistoricos/GeneradorInformes.aspx?Rpt=81']
 
-# def aviso():
-#     time.sleep(10)
-#     driver.find_element(By.XPATH, '//*[@id ="exampleModal"]').send_keys(Keys.ESCAPE)
-
-
 def loginpage():
     ui.WebDriverWait(driver, 10)
     driver.get("http://sis-db-04/SOATReportConsole/")
@@ -45,22 +40,19 @@ def descargar():
     menumes = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_calendar"]/table/tbody/tr[1]/td[2]/span')
     menumes.click()
     time.sleep(2)
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[6]/td/span[1]')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[6]/td/span[1]')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[6]/td/span[1]')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[6]/td/span[1]')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td/span')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[1]/table/tbody/tr[1]/td[1]/span')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[2]/td/span[1]')
-    menuslider.click()
-    menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_calendar"]/table/tbody/tr[3]/td[6]')
-    menuslider.click()
+    anioinicial = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td/span').get_attribute("innerHTML")
+    while anioinicial != '2000':
+        menuslider = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[6]/td/span[1]')
+        menuslider.click()
+        anioinicial = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td/span').get_attribute("innerHTML")
+    anio = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td/span')
+    anio.click()
+    mesfechainicial = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[1]/td[1]/table/tbody/tr[1]/td[1]/span')
+    mesfechainicial.click()
+    diafechainicial = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_monthYear"]/div/table/tbody/tr[2]/td/span[1]')
+    diafechainicial.click()
+    aplicarfechainicial = driver.find_element(By.XPATH, '//*[@id="Txtfecha_desde_calendar"]/table/tbody/tr[3]/td[6]')
+    aplicarfechainicial.click()
     fechafin = driver.find_element(By.ID, "TxtFecha_hasta_textBox")
     time.sleep(2)
     fechafin.click()
@@ -68,22 +60,7 @@ def descargar():
     fechahoy.click()
     BotonDescarga = driver.find_element(By.XPATH, '//*[@id="BtnCsv"]')
     BotonDescarga.click()
-    
-    # fechaini.clear()
-    # //*[@id="Txtfecha_desde_calendar"]/table/tbody/tr[1]/td[2]/span
-    
     time.sleep(10)
-    # fechainih = driver.find_element(By.ID, "Txtfecha_desde_hidden")
-    # fechainih.send_keys("1/1/2022")
-    # fechaini.click()
-    # fechaini.clear()
-    
-    # time.sleep(2)
-    # fechafin = driver.find_element(By.ID, "TxtFecha_hasta_textBox")
-    # fechafin.clear()
-    # fechafin.send_keys("31/12/2022")
-    # time.sleep(20)
-    
 
 loginpage()
 time.sleep(2)
