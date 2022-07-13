@@ -1,0 +1,13 @@
+07/12/2022 02:06:44 PM Inicio proceso de descarga CGB
+07/12/2022 02:07:35 PM Inicio proceso de descarga CGB
+07/12/2022 02:09:18 PM Finaliza el proceso de descarga de CGB
+07/12/2022 02:47:30 PM Inicio proceso de descarga CGB
+07/12/2022 02:48:12 PM Error al descargar el archivo de la consola de consultas
+07/12/2022 02:48:12 PM Finaliza el proceso de descarga de CGB
+07/12/2022 02:48:12 PM Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))': /session/ca695d851e4f6166bd881f820fb425d8
+07/12/2022 02:49:46 PM Inicio proceso de descarga CGB
+07/12/2022 02:51:39 PM Finaliza el proceso de descarga de CGB
+07/13/2022 10:27:16 AM Inicio proceso de descarga CGB
+07/13/2022 10:29:36 AM Finaliza el proceso de descarga de CGB
+07/13/2022 10:30:28 AM Inicio proceso de descarga CGB
+07/13/2022 10:31:50 AM Finaliza el proceso de descarga de CGB

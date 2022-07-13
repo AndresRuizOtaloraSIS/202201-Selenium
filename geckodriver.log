@@ -418,3 +418,14 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1657652712855	geckodriver	INFO	Listening on 127.0.0.1:58750
+1657652715896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\fogni\\AppData\\Local\\Temp\\rust_mozprofilebt1EFl"
+1657652716579	Marionette	INFO	Marionette enabled
+1657652716584	Marionette	INFO	Listening on port 58774
+WebDriver BiDi listening on ws://localhost:58751
+Read port: 58774
+1657652716713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fogni\\AppData\\Local\\Temp\\rust_mozprofilebt1EFl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58751/devtools/browser/b13a99ef-d845-48fe-b026-acaab829aeb9
+1657653702302	Marionette	INFO	Stopped listening on port 58774
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

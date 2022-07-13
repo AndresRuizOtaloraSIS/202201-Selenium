@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 import selenium.webdriver.support.ui as ui
 
 
+
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
@@ -16,25 +17,25 @@ logging.basicConfig(filename='SIS-BI-AlertamientoSOAT-CGB.log', level=logging.IN
 
 driver = webdriver.Chrome()
 
-target_url: list[str] = ['http://sis-db-04/SOATReportConsole/InformesHistoricos/GeneradorInformes.aspx?Rpt=81']
+target_url  = ['http://sis-ap-03/SEPieReports/InformesHistoricos/GeneradorInformes.aspx?Rpt=81']
 
 def loginpage():
     logging.info('Inicio proceso de descarga CGB')
     ui.WebDriverWait(driver, 10)
-    driver.get("http://sis-db-04/SOATReportConsole/")
+    driver.get("http://sis-ap-03/SEPieReports/")
     login = driver.find_element(By.XPATH, '//*[@id="txtuser"]')
     login.clear()
-    login.send_keys("arruiz")
+    login.send_keys("equinteroape")
     time.sleep(10)
     pwd = driver.find_element(By.ID, "txtpassword")
     pwd.clear()
-    pwd.send_keys("GWqT9h7H!z")
+    pwd.send_keys("FLqNXah*W3")
     driver.find_element(By.ID, "Button1").click()
 
 
-def descargar():
+def descargarsoat():
     try:
-        driver.get("http://sis-db-04/SOATReportConsole/InformesHistoricos/GeneradorInformes.aspx?Rpt=81")
+        driver.get("http://sis-ap-03/SEPieReports/InformesHistoricos/GeneradorInformes.aspx?Rpt=81")
         driver.implicitly_wait(10)
     except Exception:
         logging.error('Error al conectar con consola de consulta.')
@@ -65,11 +66,11 @@ def descargar():
         fechahoy.click()
         BotonDescarga = driver.find_element(By.XPATH, '//*[@id="BtnCsv"]')
         BotonDescarga.click()
-        time.sleep(60)
+        time.sleep(20)
     except:
-        logging.error('Error al descargar el archivo de la consola de consultas')
+        logging.error('Error al descargarsoat el archivo de la consola de consultas')
 
 loginpage()
-descargar()
+descargarsoat()
 logging.info('Finaliza el proceso de descarga de CGB')
 driver.quit()
